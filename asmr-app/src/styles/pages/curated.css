@@ -1,0 +1,53 @@
+#curatedBg {
+  background-image: url(../../images/bg6.jpg);
+}
+
+#curatedBg .container {
+  height: 100%;
+  width: 100%;
+}
+#curatedBg .item {
+  position: relative;
+}
+#curatedItem svg{
+  top:20px;
+}
+
+#curatedBg .item svg {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 10%) scale(1.2);
+}
+#three {
+  position: absolute;
+  margin-left: 50px;
+  width: 25%;
+}
+#animOne {
+  animation: curatedAnim 1s alternate infinite;
+}
+#animTwo {
+  animation: curatedAnim 1s alternate infinite 0.2s;
+}
+#animThree {
+  animation: curatedAnim 1s alternate infinite 0.5s;
+}
+
+@keyframes curatedAnim {
+  0% {
+    top: -5px;
+  }
+  100% {
+    top: 5px;
+  }
+}
+#curatedBg .item .title {
+  position: absolute;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  text-transform: uppercase;
+  font-size: 10px;
+  font-family: BiancoSans;
+}

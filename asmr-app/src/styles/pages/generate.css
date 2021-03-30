@@ -1,0 +1,57 @@
+#generateBg {
+  background-image: url(../../images/bg2.jpg);
+}
+.generate-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.generate-container .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.generate-container .slidecontainer {
+  align-self: flex-end;
+  width:30%;
+ 
+}
+.slider{
+  width:100%;
+}
+
+.slidecontainer-units{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  color:white;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-family: BiancoSans;
+}
+
+.generate-container .content .svg-container {
+  height: 170px;
+  width: 16%;
+  position: relative;
+}
+.generate-container .content .svg-container:hover .cls-1 {
+  fill: rgba(0, 0, 0, 0.5);
+}
+
+.generate-container .content .svg-container .title {
+  position: absolute;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  text-transform: uppercase;
+  font-size: 10px;
+  font-family: BiancoSans;
+}
+
+.generate-container .generateSoundButton {
+  width: 200px;
+  align-self: flex-end;
+}

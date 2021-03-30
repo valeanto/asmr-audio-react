@@ -1,0 +1,50 @@
+#beyondSleep {
+  background-image: url(../../images/bg.jpg);
+}
+
+.beyondsleep {
+  height: 100%;
+}
+.randomize {
+  height: 100%;
+}
+.element {
+  position: absolute;
+  top: 25%;
+}
+#bs-1 {
+  left: 10%;
+}
+#bs-2 {
+  left: 20%;
+}
+#bs-3 {
+  left: 50%;
+  transform: translateX(-50%);
+}
+#bs-4 {
+  right: 25%;
+}
+#bs-5 {
+  right: 10%;
+}
+.bs-svg-container .cls-1 {
+  fill: none;
+  transition: fill 2s ease;
+}
+.bs-svg-container:hover .cls-1 {
+  fill: black;
+}
+.bs-svg-container {
+  width: 500px;
+  position: relative;
+}
+
+.bs-svg-container .bs-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  text-align: center;
+  color: white;
+}
