@@ -1,6 +1,9 @@
 import logo from "../images/logo_white.png";
 import { Link } from "react-router-dom";
 
+import Login from "./Login";
+import Logout from "./Logout";
+
 function Navbar() {
   return (
     <div className="nav">
@@ -10,7 +13,11 @@ function Navbar() {
         </div>
       </Link>
       <div className="settings">
-        <Link to="/members-place">icon</Link>
+        <Login />
+        {/* <Logout /> */}
+        {/* <Link to="/">login</Link> */}
+        <Link to="/members-place">Members place</Link>
+        <Link to="/">Talk to us</Link>
       </div>
     </div>
   );

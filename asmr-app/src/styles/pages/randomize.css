@@ -13,7 +13,7 @@
 
 #randomizeBg .item svg {
   left: 50%;
-  top:20%;
+  top: 20%;
   transform: translateY(10%);
 }
 
@@ -24,7 +24,7 @@
   left: 50%;
   transform: translate(-50%, 50%);
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 14px;
   font-family: BiancoSans;
 }
 

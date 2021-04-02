@@ -1,27 +1,34 @@
 import { Link } from "react-router-dom";
+import React, { useState } from "react";
 
 function General() {
+  const [rangeval, setRangeval] = useState(null);
   return (
     <>
       <section id="generateBg">
-        <div className="generate-container">
-          <div className="slidecontainer">
-            <div className="slidecontainer-units">
-              <p>5 MIN</p>
-              <p>15 MIN</p>
-              <p>30 MIN</p>
-              <p>1 HR</p>
-              <p>1 1/2</p>
-            </div>
-            <input
-              type="range"
-              min="1"
-              max="100"
-              value="50"
-              className="slider"
-              id="myRange"
-            />
+        <div className="slidecontainer">
+          <div className="slidecontainer-units">
+            <p>5 MIN</p>
+            <p>15 MIN</p>
+            <p>30 MIN</p>
+            <p>1 HR</p>
+            <p>1 1/2</p>
           </div>
+          <div>
+            <div>
+              <input
+                type="range"
+                className="custom-range"
+                min="199"
+                max="3999"
+                className="slider"
+                id="myRange"
+                onChange={(event) => setRangeval(event.target.value)}
+              />
+            </div>
+          </div>
+        </div>
+        <div className="generate-container">
           <div className="content">
             <div id="fingernails" className="svg-container">
               <svg
@@ -331,7 +338,7 @@ function General() {
             <h3 className="title"> Generate Art Sound</h3>
           </Link>
         </div>
-      </section>{" "}
+      </section>
     </>
   );
 }

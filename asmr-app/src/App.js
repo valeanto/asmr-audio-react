@@ -9,6 +9,7 @@ import Randomize from "./components/randomize";
 import MembersPlace from "./components/membersPlace";
 import GenerateSound from "./components/generateSound";
 import SoundOutput from "./components/soundOutput";
+import SoundToggle from "./components/soundToggle";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/generate-sound" exact component={GenerateSound} />
           <Route path="/your-sound" exact component={SoundOutput} />
         </Switch>
+        <SoundToggle />
       </Router>
     </>
   );
