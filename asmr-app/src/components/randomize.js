@@ -7,7 +7,6 @@ function Randomize() {
         <Link to='/'  className="container">
           <div className="item">
             <div className="svg-container randomizeItem">
-          
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 117.54 170.91"
