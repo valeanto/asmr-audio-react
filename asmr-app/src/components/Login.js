@@ -1,6 +1,6 @@
 import React from "react";
 import { useGoogleLogin } from "react-google-login";
-import {useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 // refresh token
 import { refreshTokenSetup } from "../utils/refreshToken";
@@ -12,14 +12,14 @@ function Login() {
   let history = useHistory();
   const onSuccess = (res) => {
     console.log("Login Success: currentUser:", res.profileObj);
-    
+
     // alert(
     //   `Logged in successfully welcome ${res.profileObj.name} 😍. \n See console for full profile object.`
     // );
-  
+
     refreshTokenSetup(res);
-    history.push("/random");
-    
+
+    //  history.push("/random");
   };
 
   const onFailure = (res) => {

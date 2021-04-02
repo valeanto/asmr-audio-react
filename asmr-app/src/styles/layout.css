@@ -40,8 +40,8 @@ section {
   background-position: center; /* Center the image */
   background-size: fill; /* Resize the background image to cover the entire container */
 }
-.settings{
-  display:flex;
+.settings {
+  display: flex;
   flex-direction: column;
 }
 #downloadBg {
@@ -115,15 +115,14 @@ section {
   }
 }
 
-.login-button{
-  background:transparent;
-  border:none;
-
+.login-button {
+  background: transparent;
+  border: none;
 }
 
-.soundToggle{
-  border:1px solid red;
-  position:absolute;
-  bottom:0;
-  right:0;
+.soundToggle {
+  border: 1px solid red;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
