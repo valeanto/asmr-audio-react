@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Curated() {
   return (
     <>
@@ -5,7 +7,7 @@ function Curated() {
         <div className="container">
           <div className="item" id="animOne">
             <div className="svg-container">
-              <a href="./pages/beyondsleep.html">
+              <Link to ="/five-min-pick-me-up">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 117.54 170.91"
@@ -19,12 +21,13 @@ function Curated() {
                     </g>
                   </g>
                 </svg>
-              </a>
+              </Link>
               <h3 className="title">5 min pick me up</h3>
             </div>
           </div>
           <div className="item" id="animThree">
             <div className="svg-container">
+            <Link to ="/relax">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 137.56 181.17"
@@ -38,12 +41,13 @@ function Curated() {
                   </g>
                 </g>
               </svg>
+              </Link>
               <h3 className="title">relax</h3>
             </div>
           </div>
           <div className="item" id="curatedItem" >
             <div className="svg-container">
-              <a href="./pages/download.html">
+            <Link to ="/i-want-to-sleep">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 128.87 179.49"
@@ -56,11 +60,12 @@ function Curated() {
                       />
                     </g>
                   </g>
+             
                 </svg>
                 <h3 className="title" id="three">
                   i want to sleep
                 </h3>
-              </a>
+                </Link>
             </div>
           </div>
         </div>

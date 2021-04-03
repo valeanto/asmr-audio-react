@@ -29,7 +29,19 @@ body {
   fill: none;
   stroke: #ffffff;
   stroke-miterlimit: 10;
-  stroke-width: 0.45px;
+  stroke-width: 0.5px;
+}
+.cls-2 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-miterlimit: 10;
+  stroke-width: 3px;
+}
+.cls-3 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-miterlimit: 10;
+  stroke-width: 1.5px;
 }
 section {
   padding: 1rem;
@@ -41,8 +53,13 @@ section {
   background-size: fill; /* Resize the background image to cover the entire container */
 }
 .settings {
+  width: 150px;
   display: flex;
   flex-direction: column;
+}
+
+.showMenu {
+  border: 2px solid green;
 }
 #downloadBg {
   background-image: url(../images/bg5.jpg);
@@ -117,12 +134,28 @@ section {
 
 .login-button {
   background: transparent;
+  display: flex;
   border: none;
 }
-
+.icon-con {
+  width: 100%;
+  max-width: 20px;
+  outline: none;
+}
 .soundToggle {
-  border: 1px solid red;
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 1rem;
+  right: 2rem;
+  width: 30px;
+  background: transparent;
+}
+.sound-con {
+  width: 100%;
+}
+.sound-con svg {
+  width: 100%;
+}
+.buttonText {
+  padding-left: 0.3rem;
+  font-size: 16px;
 }

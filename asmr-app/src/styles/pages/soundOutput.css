@@ -11,16 +11,15 @@
 
 #soundOutputBg .container h1 {
   color: white;
+  font-size: 35px;
 }
 #soundOutputBg .container .output {
   height: 70%;
   position: relative;
   display: flex;
   align-items: center;
-  /* border:1px solid blue; */
 }
 #soundOutputBg .container .output svg {
-  /* border:1px solid blue; */
   height: 100%;
   position: absolute;
   left: 50%;
@@ -56,6 +55,9 @@
 
 #soundOutputBg .container .output input[type="text"] {
   font-size: 30px;
+  color:white;
+  font-family: BiancoSerif;
+
 }
 
 #soundOutputBg .container .options {
@@ -65,7 +67,6 @@
   padding: 1rem 0;
   position: absolute;
   bottom: 0;
-  /* border:1px solid red; */
 }
 
 #soundOutputBg .container .options a {

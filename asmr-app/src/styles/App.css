@@ -1,8 +1,5 @@
-
-
 @import './layout.css';
 @import './typography.css';
-
 
 /* PAGES */
 @import './pages/landing.css';
@@ -12,3 +9,5 @@
 @import './pages/generate.css';
 @import './pages/generateSound.css';
 @import './pages/soundOutput.css';
+@import './pages/contact.css';
+@import './pages/dashboard.css';

@@ -3,6 +3,16 @@ import React, { useState } from "react";
 
 function General() {
   const [rangeval, setRangeval] = useState(null);
+  let audio = new Audio("/static/media/fluffy.30ad12b1.mp3");
+
+  const playFingerNails = () => {
+    audio.currentTime = 0;
+    audio.play();
+  };
+  const stopAudio = () => {
+    audio.pause();
+  };
+
   return (
     <>
       <section id="generateBg">
@@ -30,7 +40,12 @@ function General() {
         </div>
         <div className="generate-container">
           <div className="content">
-            <div id="fingernails" className="svg-container">
+            <div
+              id="fingernails"
+              className="svg-container"
+              onMouseEnter={playFingerNails}
+              onMouseLeave={stopAudio}
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 151.45 167.37"
@@ -44,7 +59,7 @@ function General() {
                   </g>
                 </g>
               </svg>
-              <h3 className="title">relax</h3>
+              <h3 className="title">Fingernails</h3>
             </div>
             <div id="tapping" className="svg-container">
               <svg

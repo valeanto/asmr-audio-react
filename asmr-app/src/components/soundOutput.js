@@ -49,8 +49,10 @@ export default function SoundOutput() {
             </form>
           </div>
           <div className="options">
-            <Link to="">Save your sound</Link>
-            <Link to="">Save your sound</Link>
+            {/* goes  */}
+            <Link to="/dashboard">Save your sound</Link>
+            {/* alert box or download sound */}
+            <Link to="">Download your sound</Link>
           </div>
         </div>
       </section>

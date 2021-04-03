@@ -114,8 +114,8 @@ export default function membersPlace() {
           </div>
         </div>
         <div className="options">
-          <div className="">EXIT</div>
-          <div className="">UPLOAD</div>
+          <Link to='/'>EXIT</Link>
+          <Link to='/'>UPLOAD</Link>
         </div>
       </section>
     </>

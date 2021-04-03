@@ -8,7 +8,7 @@ function Landing() {
       <section id="landingBg">
         <div className="container">
           <div className="item">
-            <Link to="/random" className="svg-container">
+            <Link to="/randomize" className="svg-container">
               <svg viewBox="0 0 115.87 141.24" id="random">
                 <g id="Layer_2" data-name="Layer 2">
                   <g id="Ebene_1" data-name="Ebene 1">
@@ -23,7 +23,7 @@ function Landing() {
             </Link>
           </div>
           <div className="item">
-            <Link to="/general" className="svg-container">
+            <Link to="/generator" className="svg-container">
               <svg viewBox="0 0 110.57 105.08" id="generate">
                 <g id="Layer_2" data-name="Layer 2">
                   <g id="Ebene_1" data-name="Ebene 1">
